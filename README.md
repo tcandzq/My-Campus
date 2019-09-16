@@ -24,3 +24,31 @@
 从1到100选出所有即是奇数也是合数的数，问你如何排序使得排序后的数两两都不互质？
 ## 图论
 给定N个人和M个讨厌关系，判断是否能将这N个人划分为两组，若A讨厌B，则A和B不能分到一组中？
+
+#欢聚时代一面面经
+## 自我介绍
+## 说一说你的论坛推荐项目吧
+1.你的特征是如何构造的？
+2.你用的是DeepFM模型，那你的Deep侧和FM侧的特征分别是什么？
+3.你的文本特征是如何构造的？
+4.word2vec的原理？
+5.如果一个帖子过短 可能无法收敛 你是如何解决的？
+6.你的帖子长短不一在训练时 应如何解决？
+7.深度学习如果不收敛要如何解决？(其实面试官这里想问的是学习率和步长要如何调整，进而引出优化算法，而我却直接说了加数据和减层数这种弱鸡的回答)
+
+### 深度学习中的正则化有哪些?
+### Dropot系列
+1.手写Dropout公式，并解释每一个公式的含义？
+2.Dropout是加在激活函数前，还是加在激活函数后？Dropout在神经网络训练和测试的时候要做怎样的调整？
+Dropout系列参考:https://www.cnblogs.com/fpzs/p/9715044.html
+
+### Batch Normalization系列
+1.手写Batch Normalization 并解释每一个公式的含义？
+2.Batch的含义是什么？
+3.Batch Normalization到底要解决怎样的问题？
+4.神经网络加了Batch Normalization后有哪些变化？
+Batch Normalization  参考https://www.cnblogs.com/skyfsm/p/8453498.html
+
+### 那我们来做题吧
+求两个有序数组的topK数(参考leetcode第四题寻找两个有序数组的中位数)https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
+大题思路:其实就是用两个指针指着两个有序数组的中位数，然后计算下数量是否等于K，否则移动指针直到满足条件为止。
